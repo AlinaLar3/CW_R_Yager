@@ -199,7 +199,7 @@ def delete_room(room_id):
     return True
 
 def main():
-    st.set_page_config(page_title="Метод Ягера", layout="wide")
+    st.set_page_config(page_title="Метод Яджера", layout="wide")
     init_db()
     if 'room_id' not in st.session_state:
         st.session_state.room_id = None
